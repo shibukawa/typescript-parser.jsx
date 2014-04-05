@@ -1,305 +1,308 @@
+native __fake__ class _SyntaxKind {
+    function __native_index_operator__(index : int) : string;
+    __readonly__ var None : int;
+    __readonly__ var List : int;
+    __readonly__ var SeparatedList : int;
+    __readonly__ var TriviaList : int;
+
+    __readonly__ var WhitespaceTrivia : int;
+    __readonly__ var NewLineTrivia : int;
+    __readonly__ var MultiLineCommentTrivia : int;
+    __readonly__ var SingleLineCommentTrivia : int;
+    __readonly__ var SkippedTokenTrivia : int;
+
+    __readonly__ var ErrorToken : int;
+    __readonly__ var EndOfFileToken : int;
+
+    __readonly__ var IdentifierName : int;
+
+    __readonly__ var RegularExpressionLiteral : int;
+    __readonly__ var NumericLiteral : int;
+    __readonly__ var StringLiteral : int;
+
+    __readonly__ var BreakKeyword : int;
+    __readonly__ var CaseKeyword : int;
+    __readonly__ var CatchKeyword : int;
+    __readonly__ var ContinueKeyword : int;
+    __readonly__ var DebuggerKeyword : int;
+    __readonly__ var DefaultKeyword : int;
+    __readonly__ var DeleteKeyword : int;
+    __readonly__ var DoKeyword : int;
+    __readonly__ var ElseKeyword : int;
+    __readonly__ var FalseKeyword : int;
+    __readonly__ var FinallyKeyword : int;
+    __readonly__ var ForKeyword : int;
+    __readonly__ var FunctionKeyword : int;
+    __readonly__ var IfKeyword : int;
+    __readonly__ var InKeyword : int;
+    __readonly__ var InstanceOfKeyword : int;
+    __readonly__ var NewKeyword : int;
+    __readonly__ var NullKeyword : int;
+    __readonly__ var ReturnKeyword : int;
+    __readonly__ var SwitchKeyword : int;
+    __readonly__ var ThisKeyword : int;
+    __readonly__ var ThrowKeyword : int;
+    __readonly__ var TrueKeyword : int;
+    __readonly__ var TryKeyword : int;
+    __readonly__ var TypeOfKeyword : int;
+    __readonly__ var VarKeyword : int;
+    __readonly__ var VoidKeyword : int;
+    __readonly__ var WhileKeyword : int;
+    __readonly__ var WithKeyword : int;
+
+    __readonly__ var ClassKeyword : int;
+    __readonly__ var ConstKeyword : int;
+    __readonly__ var EnumKeyword : int;
+    __readonly__ var ExportKeyword : int;
+    __readonly__ var ExtendsKeyword : int;
+    __readonly__ var ImportKeyword : int;
+    __readonly__ var SuperKeyword : int;
+
+    __readonly__ var ImplementsKeyword : int;
+    __readonly__ var InterfaceKeyword : int;
+    __readonly__ var LetKeyword : int;
+    __readonly__ var PackageKeyword : int;
+    __readonly__ var PrivateKeyword : int;
+    __readonly__ var ProtectedKeyword : int;
+    __readonly__ var PublicKeyword : int;
+    __readonly__ var StaticKeyword : int;
+    __readonly__ var YieldKeyword : int;
+
+    __readonly__ var AnyKeyword : int;
+    __readonly__ var BooleanKeyword : int;
+    __readonly__ var ConstructorKeyword : int;
+    __readonly__ var DeclareKeyword : int;
+    __readonly__ var GetKeyword : int;
+    __readonly__ var ModuleKeyword : int;
+    __readonly__ var RequireKeyword : int;
+    __readonly__ var NumberKeyword : int;
+    __readonly__ var SetKeyword : int;
+    __readonly__ var StringKeyword : int;
+
+    __readonly__ var OpenBraceToken : int;
+    __readonly__ var CloseBraceToken : int;
+    __readonly__ var OpenParenToken : int;
+    __readonly__ var CloseParenToken : int;
+    __readonly__ var OpenBracketToken : int;
+    __readonly__ var CloseBracketToken : int;
+    __readonly__ var DotToken : int;
+    __readonly__ var DotDotDotToken : int;
+    __readonly__ var SemicolonToken : int;
+    __readonly__ var CommaToken : int;
+    __readonly__ var LessThanToken : int;
+    __readonly__ var GreaterThanToken : int;
+    __readonly__ var LessThanEqualsToken : int;
+    __readonly__ var GreaterThanEqualsToken : int;
+    __readonly__ var EqualsEqualsToken : int;
+    __readonly__ var EqualsGreaterThanToken : int;
+    __readonly__ var ExclamationEqualsToken : int;
+    __readonly__ var EqualsEqualsEqualsToken : int;
+    __readonly__ var ExclamationEqualsEqualsToken : int;
+    __readonly__ var PlusToken : int;
+    __readonly__ var MinusToken : int;
+    __readonly__ var AsteriskToken : int;
+    __readonly__ var PercentToken : int;
+    __readonly__ var PlusPlusToken : int;
+    __readonly__ var MinusMinusToken : int;
+    __readonly__ var LessThanLessThanToken : int;
+    __readonly__ var GreaterThanGreaterThanToken : int;
+    __readonly__ var GreaterThanGreaterThanGreaterThanToken : int;
+    __readonly__ var AmpersandToken : int;
+    __readonly__ var BarToken : int;
+    __readonly__ var CaretToken : int;
+    __readonly__ var ExclamationToken : int;
+    __readonly__ var TildeToken : int;
+    __readonly__ var AmpersandAmpersandToken : int;
+    __readonly__ var BarBarToken : int;
+    __readonly__ var QuestionToken : int;
+    __readonly__ var ColonToken : int;
+    __readonly__ var EqualsToken : int;
+    __readonly__ var PlusEqualsToken : int;
+    __readonly__ var MinusEqualsToken : int;
+    __readonly__ var AsteriskEqualsToken : int;
+    __readonly__ var PercentEqualsToken : int;
+    __readonly__ var LessThanLessThanEqualsToken : int;
+    __readonly__ var GreaterThanGreaterThanEqualsToken : int;
+    __readonly__ var GreaterThanGreaterThanGreaterThanEqualsToken : int;
+    __readonly__ var AmpersandEqualsToken : int;
+    __readonly__ var BarEqualsToken : int;
+    __readonly__ var CaretEqualsToken : int;
+    __readonly__ var SlashToken : int;
+    __readonly__ var SlashEqualsToken : int;
+
+    __readonly__ var SourceUnit : int;
+
+    __readonly__ var QualifiedName : int;
+
+    __readonly__ var ObjectType : int;
+    __readonly__ var FunctionType : int;
+    __readonly__ var ArrayType : int;
+    __readonly__ var ConstructorType : int;
+    __readonly__ var GenericType : int;
+    __readonly__ var TypeQuery : int;
+
+    __readonly__ var InterfaceDeclaration : int;
+    __readonly__ var FunctionDeclaration : int;
+    __readonly__ var ModuleDeclaration : int;
+    __readonly__ var ClassDeclaration : int;
+    __readonly__ var EnumDeclaration : int;
+    __readonly__ var ImportDeclaration : int;
+    __readonly__ var ExportAssignment : int;
+
+    __readonly__ var MemberFunctionDeclaration : int;
+    __readonly__ var MemberVariableDeclaration : int;
+    __readonly__ var ConstructorDeclaration : int;
+    __readonly__ var IndexMemberDeclaration : int;
+
+    __readonly__ var GetAccessor : int;
+    __readonly__ var SetAccessor : int;
+
+    __readonly__ var PropertySignature : int;
+    __readonly__ var CallSignature : int;
+    __readonly__ var ConstructSignature : int;
+    __readonly__ var IndexSignature : int;
+    __readonly__ var MethodSignature : int;
+
+    __readonly__ var Block : int;
+    __readonly__ var IfStatement : int;
+    __readonly__ var VariableStatement : int;
+    __readonly__ var ExpressionStatement : int;
+    __readonly__ var ReturnStatement : int;
+    __readonly__ var SwitchStatement : int;
+    __readonly__ var BreakStatement : int;
+    __readonly__ var ContinueStatement : int;
+    __readonly__ var ForStatement : int;
+    __readonly__ var ForInStatement : int;
+    __readonly__ var EmptyStatement : int;
+    __readonly__ var ThrowStatement : int;
+    __readonly__ var WhileStatement : int;
+    __readonly__ var TryStatement : int;
+    __readonly__ var LabeledStatement : int;
+    __readonly__ var DoStatement : int;
+    __readonly__ var DebuggerStatement : int;
+    __readonly__ var WithStatement : int;
+
+    __readonly__ var PlusExpression : int;
+    __readonly__ var NegateExpression : int;
+    __readonly__ var BitwiseNotExpression : int;
+    __readonly__ var LogicalNotExpression : int;
+    __readonly__ var PreIncrementExpression : int;
+    __readonly__ var PreDecrementExpression : int;
+    __readonly__ var DeleteExpression : int;
+    __readonly__ var TypeOfExpression : int;
+    __readonly__ var VoidExpression : int;
+    __readonly__ var CommaExpression : int;
+    __readonly__ var AssignmentExpression : int;
+    __readonly__ var AddAssignmentExpression : int;
+    __readonly__ var SubtractAssignmentExpression : int;
+    __readonly__ var MultiplyAssignmentExpression : int;
+    __readonly__ var DivideAssignmentExpression : int;
+    __readonly__ var ModuloAssignmentExpression : int;
+    __readonly__ var AndAssignmentExpression : int;
+    __readonly__ var ExclusiveOrAssignmentExpression : int;
+    __readonly__ var OrAssignmentExpression : int;
+    __readonly__ var LeftShiftAssignmentExpression : int;
+    __readonly__ var SignedRightShiftAssignmentExpression : int;
+    __readonly__ var UnsignedRightShiftAssignmentExpression : int;
+    __readonly__ var ConditionalExpression : int;
+    __readonly__ var LogicalOrExpression : int;
+    __readonly__ var LogicalAndExpression : int;
+    __readonly__ var BitwiseOrExpression : int;
+    __readonly__ var BitwiseExclusiveOrExpression : int;
+    __readonly__ var BitwiseAndExpression : int;
+    __readonly__ var EqualsWithTypeConversionExpression : int;
+    __readonly__ var NotEqualsWithTypeConversionExpression : int;
+    __readonly__ var EqualsExpression : int;
+    __readonly__ var NotEqualsExpression : int;
+    __readonly__ var LessThanExpression : int;
+    __readonly__ var GreaterThanExpression : int;
+    __readonly__ var LessThanOrEqualExpression : int;
+    __readonly__ var GreaterThanOrEqualExpression : int;
+    __readonly__ var InstanceOfExpression : int;
+    __readonly__ var InExpression : int;
+    __readonly__ var LeftShiftExpression : int;
+    __readonly__ var SignedRightShiftExpression : int;
+    __readonly__ var UnsignedRightShiftExpression : int;
+    __readonly__ var MultiplyExpression : int;
+    __readonly__ var DivideExpression : int;
+    __readonly__ var ModuloExpression : int;
+    __readonly__ var AddExpression : int;
+    __readonly__ var SubtractExpression : int;
+    __readonly__ var PostIncrementExpression : int;
+    __readonly__ var PostDecrementExpression : int;
+    __readonly__ var MemberAccessExpression : int;
+    __readonly__ var InvocationExpression : int;
+    __readonly__ var ArrayLiteralExpression : int;
+    __readonly__ var ObjectLiteralExpression : int;
+    __readonly__ var ObjectCreationExpression : int;
+    __readonly__ var ParenthesizedExpression : int;
+    __readonly__ var ParenthesizedArrowFunctionExpression : int;
+    __readonly__ var SimpleArrowFunctionExpression : int;
+    __readonly__ var CastExpression : int;
+    __readonly__ var ElementAccessExpression : int;
+    __readonly__ var FunctionExpression : int;
+    __readonly__ var OmittedExpression : int;
+
+    __readonly__ var VariableDeclaration : int;
+    __readonly__ var VariableDeclarator : int;
+
+    __readonly__ var ArgumentList : int;
+    __readonly__ var ParameterList : int;
+    __readonly__ var TypeArgumentList : int;
+    __readonly__ var TypeParameterList : int;
+
+    __readonly__ var ExtendsHeritageClause : int;
+    __readonly__ var ImplementsHeritageClause : int;
+    __readonly__ var EqualsValueClause : int;
+    __readonly__ var CaseSwitchClause : int;
+    __readonly__ var DefaultSwitchClause : int;
+    __readonly__ var ElseClause : int;
+    __readonly__ var CatchClause : int;
+    __readonly__ var FinallyClause : int;
+
+    __readonly__ var TypeParameter : int;
+    __readonly__ var Constraint : int;
+
+    __readonly__ var SimplePropertyAssignment : int;
+    __readonly__ var FunctionPropertyAssignment : int;
+
+    __readonly__ var Parameter : int;
+    __readonly__ var EnumElement : int;
+    __readonly__ var TypeAnnotation : int;
+    __readonly__ var ExternalModuleReference : int;
+    __readonly__ var ModuleNameModuleReference : int;
+    __readonly__ var Last : int;
+
+    __readonly__ var FirstStandardKeyword : int;
+    __readonly__ var LastStandardKeyword : int;
+
+    __readonly__ var FirstFutureReservedKeyword : int;
+    __readonly__ var LastFutureReservedKeyword : int;
+
+    __readonly__ var FirstFutureReservedStrictKeyword : int;
+    __readonly__ var LastFutureReservedStrictKeyword : int;
+
+    __readonly__ var FirstTypeScriptKeyword : int;
+    __readonly__ var LastTypeScriptKeyword : int;
+
+    __readonly__ var FirstKeyword : int;
+    __readonly__ var LastKeyword : int;
+
+    __readonly__ var FirstToken : int;
+    __readonly__ var LastToken : int;
+
+    __readonly__ var FirstPunctuation : int;
+    __readonly__ var LastPunctuation : int;
+
+    __readonly__ var FirstFixedWidth : int;
+    __readonly__ var LastFixedWidth : int;
+
+    __readonly__ var FirstTrivia : int;
+    __readonly__ var LastTrivia : int;
+}
+
 native class TypeScript {
-    class SyntaxKind {
-        static const None : int;
-        static const List : int;
-        static const SeparatedList : int;
-        static const TriviaList : int;
-
-        static const WhitespaceTrivia : int;
-        static const NewLineTrivia : int;
-        static const MultiLineCommentTrivia : int;
-        static const SingleLineCommentTrivia : int;
-        static const SkippedTokenTrivia : int;
-
-        static const ErrorToken : int;
-        static const EndOfFileToken : int;
-
-        static const IdentifierName : int;
-
-        static const RegularExpressionLiteral : int;
-        static const NumericLiteral : int;
-        static const StringLiteral : int;
-
-        static const BreakKeyword : int;
-        static const CaseKeyword : int;
-        static const CatchKeyword : int;
-        static const ContinueKeyword : int;
-        static const DebuggerKeyword : int;
-        static const DefaultKeyword : int;
-        static const DeleteKeyword : int;
-        static const DoKeyword : int;
-        static const ElseKeyword : int;
-        static const FalseKeyword : int;
-        static const FinallyKeyword : int;
-        static const ForKeyword : int;
-        static const FunctionKeyword : int;
-        static const IfKeyword : int;
-        static const InKeyword : int;
-        static const InstanceOfKeyword : int;
-        static const NewKeyword : int;
-        static const NullKeyword : int;
-        static const ReturnKeyword : int;
-        static const SwitchKeyword : int;
-        static const ThisKeyword : int;
-        static const ThrowKeyword : int;
-        static const TrueKeyword : int;
-        static const TryKeyword : int;
-        static const TypeOfKeyword : int;
-        static const VarKeyword : int;
-        static const VoidKeyword : int;
-        static const WhileKeyword : int;
-        static const WithKeyword : int;
-
-        static const ClassKeyword : int;
-        static const ConstKeyword : int;
-        static const EnumKeyword : int;
-        static const ExportKeyword : int;
-        static const ExtendsKeyword : int;
-        static const ImportKeyword : int;
-        static const SuperKeyword : int;
-
-        static const ImplementsKeyword : int;
-        static const InterfaceKeyword : int;
-        static const LetKeyword : int;
-        static const PackageKeyword : int;
-        static const PrivateKeyword : int;
-        static const ProtectedKeyword : int;
-        static const PublicKeyword : int;
-        static const StaticKeyword : int;
-        static const YieldKeyword : int;
-
-        static const AnyKeyword : int;
-        static const BooleanKeyword : int;
-        static const ConstructorKeyword : int;
-        static const DeclareKeyword : int;
-        static const GetKeyword : int;
-        static const ModuleKeyword : int;
-        static const RequireKeyword : int;
-        static const NumberKeyword : int;
-        static const SetKeyword : int;
-        static const StringKeyword : int;
-
-        static const OpenBraceToken : int;
-        static const CloseBraceToken : int;
-        static const OpenParenToken : int;
-        static const CloseParenToken : int;
-        static const OpenBracketToken : int;
-        static const CloseBracketToken : int;
-        static const DotToken : int;
-        static const DotDotDotToken : int;
-        static const SemicolonToken : int;
-        static const CommaToken : int;
-        static const LessThanToken : int;
-        static const GreaterThanToken : int;
-        static const LessThanEqualsToken : int;
-        static const GreaterThanEqualsToken : int;
-        static const EqualsEqualsToken : int;
-        static const EqualsGreaterThanToken : int;
-        static const ExclamationEqualsToken : int;
-        static const EqualsEqualsEqualsToken : int;
-        static const ExclamationEqualsEqualsToken : int;
-        static const PlusToken : int;
-        static const MinusToken : int;
-        static const AsteriskToken : int;
-        static const PercentToken : int;
-        static const PlusPlusToken : int;
-        static const MinusMinusToken : int;
-        static const LessThanLessThanToken : int;
-        static const GreaterThanGreaterThanToken : int;
-        static const GreaterThanGreaterThanGreaterThanToken : int;
-        static const AmpersandToken : int;
-        static const BarToken : int;
-        static const CaretToken : int;
-        static const ExclamationToken : int;
-        static const TildeToken : int;
-        static const AmpersandAmpersandToken : int;
-        static const BarBarToken : int;
-        static const QuestionToken : int;
-        static const ColonToken : int;
-        static const EqualsToken : int;
-        static const PlusEqualsToken : int;
-        static const MinusEqualsToken : int;
-        static const AsteriskEqualsToken : int;
-        static const PercentEqualsToken : int;
-        static const LessThanLessThanEqualsToken : int;
-        static const GreaterThanGreaterThanEqualsToken : int;
-        static const GreaterThanGreaterThanGreaterThanEqualsToken : int;
-        static const AmpersandEqualsToken : int;
-        static const BarEqualsToken : int;
-        static const CaretEqualsToken : int;
-        static const SlashToken : int;
-        static const SlashEqualsToken : int;
-
-        static const SourceUnit : int;
-
-        static const QualifiedName : int;
-
-        static const ObjectType : int;
-        static const FunctionType : int;
-        static const ArrayType : int;
-        static const ConstructorType : int;
-        static const GenericType : int;
-        static const TypeQuery : int;
-
-        static const InterfaceDeclaration : int;
-        static const FunctionDeclaration : int;
-        static const ModuleDeclaration : int;
-        static const ClassDeclaration : int;
-        static const EnumDeclaration : int;
-        static const ImportDeclaration : int;
-        static const ExportAssignment : int;
-
-        static const MemberFunctionDeclaration : int;
-        static const MemberVariableDeclaration : int;
-        static const ConstructorDeclaration : int;
-        static const IndexMemberDeclaration : int;
-
-        static const GetAccessor : int;
-        static const SetAccessor : int;
-
-        static const PropertySignature : int;
-        static const CallSignature : int;
-        static const ConstructSignature : int;
-        static const IndexSignature : int;
-        static const MethodSignature : int;
-
-        static const Block : int;
-        static const IfStatement : int;
-        static const VariableStatement : int;
-        static const ExpressionStatement : int;
-        static const ReturnStatement : int;
-        static const SwitchStatement : int;
-        static const BreakStatement : int;
-        static const ContinueStatement : int;
-        static const ForStatement : int;
-        static const ForInStatement : int;
-        static const EmptyStatement : int;
-        static const ThrowStatement : int;
-        static const WhileStatement : int;
-        static const TryStatement : int;
-        static const LabeledStatement : int;
-        static const DoStatement : int;
-        static const DebuggerStatement : int;
-        static const WithStatement : int;
-
-        static const PlusExpression : int;
-        static const NegateExpression : int;
-        static const BitwiseNotExpression : int;
-        static const LogicalNotExpression : int;
-        static const PreIncrementExpression : int;
-        static const PreDecrementExpression : int;
-        static const DeleteExpression : int;
-        static const TypeOfExpression : int;
-        static const VoidExpression : int;
-        static const CommaExpression : int;
-        static const AssignmentExpression : int;
-        static const AddAssignmentExpression : int;
-        static const SubtractAssignmentExpression : int;
-        static const MultiplyAssignmentExpression : int;
-        static const DivideAssignmentExpression : int;
-        static const ModuloAssignmentExpression : int;
-        static const AndAssignmentExpression : int;
-        static const ExclusiveOrAssignmentExpression : int;
-        static const OrAssignmentExpression : int;
-        static const LeftShiftAssignmentExpression : int;
-        static const SignedRightShiftAssignmentExpression : int;
-        static const UnsignedRightShiftAssignmentExpression : int;
-        static const ConditionalExpression : int;
-        static const LogicalOrExpression : int;
-        static const LogicalAndExpression : int;
-        static const BitwiseOrExpression : int;
-        static const BitwiseExclusiveOrExpression : int;
-        static const BitwiseAndExpression : int;
-        static const EqualsWithTypeConversionExpression : int;
-        static const NotEqualsWithTypeConversionExpression : int;
-        static const EqualsExpression : int;
-        static const NotEqualsExpression : int;
-        static const LessThanExpression : int;
-        static const GreaterThanExpression : int;
-        static const LessThanOrEqualExpression : int;
-        static const GreaterThanOrEqualExpression : int;
-        static const InstanceOfExpression : int;
-        static const InExpression : int;
-        static const LeftShiftExpression : int;
-        static const SignedRightShiftExpression : int;
-        static const UnsignedRightShiftExpression : int;
-        static const MultiplyExpression : int;
-        static const DivideExpression : int;
-        static const ModuloExpression : int;
-        static const AddExpression : int;
-        static const SubtractExpression : int;
-        static const PostIncrementExpression : int;
-        static const PostDecrementExpression : int;
-        static const MemberAccessExpression : int;
-        static const InvocationExpression : int;
-        static const ArrayLiteralExpression : int;
-        static const ObjectLiteralExpression : int;
-        static const ObjectCreationExpression : int;
-        static const ParenthesizedExpression : int;
-        static const ParenthesizedArrowFunctionExpression : int;
-        static const SimpleArrowFunctionExpression : int;
-        static const CastExpression : int;
-        static const ElementAccessExpression : int;
-        static const FunctionExpression : int;
-        static const OmittedExpression : int;
-
-        static const VariableDeclaration : int;
-        static const VariableDeclarator : int;
-
-        static const ArgumentList : int;
-        static const ParameterList : int;
-        static const TypeArgumentList : int;
-        static const TypeParameterList : int;
-
-        static const ExtendsHeritageClause : int;
-        static const ImplementsHeritageClause : int;
-        static const EqualsValueClause : int;
-        static const CaseSwitchClause : int;
-        static const DefaultSwitchClause : int;
-        static const ElseClause : int;
-        static const CatchClause : int;
-        static const FinallyClause : int;
-
-        static const TypeParameter : int;
-        static const Constraint : int;
-
-        static const SimplePropertyAssignment : int;
-        static const FunctionPropertyAssignment : int;
-
-        static const Parameter : int;
-        static const EnumElement : int;
-        static const TypeAnnotation : int;
-        static const ExternalModuleReference : int;
-        static const ModuleNameModuleReference : int;
-        static const Last : int;
-
-        static const FirstStandardKeyword : int;
-        static const LastStandardKeyword : int;
-
-        static const FirstFutureReservedKeyword : int;
-        static const LastFutureReservedKeyword : int;
-
-        static const FirstFutureReservedStrictKeyword : int;
-        static const LastFutureReservedStrictKeyword : int;
-
-        static const FirstTypeScriptKeyword : int;
-        static const LastTypeScriptKeyword : int;
-
-        static const FirstKeyword : int;
-        static const LastKeyword : int;
-
-        static const FirstToken : int;
-        static const LastToken : int;
-
-        static const FirstPunctuation : int;
-        static const LastPunctuation : int;
-
-        static const FirstFixedWidth : int;
-        static const LastFixedWidth : int;
-
-        static const FirstTrivia : int;
-        static const LastTrivia : int;
-    }
+    static const SyntaxKind : _SyntaxKind;
 
     class LineAndCharacter {
         var line : int;
@@ -2121,7 +2124,7 @@ var TypeScript;
             if (!expression) {
                 var verboseDebugString = "";
                 if (verboseDebugInfo) {
-                    verboseDebugString = "\r\nVerbose Debug Information:" + verboseDebugInfo();
+                    verboseDebugString = "\\r\\nVerbose Debug Information:" + verboseDebugInfo();
                 }
 
                 throw new Error("Debug Failure. False expression: " + message + verboseDebugString);
@@ -2243,13 +2246,13 @@ var TypeScript;
     TypeScript.Diagnostic = Diagnostic;
 
     function newLine() {
-        return TypeScript.Environment ? TypeScript.Environment.newLine : "\r\n";
+        return TypeScript.Environment ? TypeScript.Environment.newLine : "\\r\\n";
     }
     TypeScript.newLine = newLine;
 
     function getLargestIndex(diagnostic) {
         var largest = -1;
-        var regex = /\{(\d+)\}/g;
+        var regex = /\\{(\\d+)\\}/g;
 
         var match;
         while (match = regex.exec(diagnostic)) {
@@ -2288,7 +2291,7 @@ var TypeScript;
             throw new Error(getLocalizedText(TypeScript.DiagnosticCode.Expected_the_message_0_to_have_1_arguments_but_it_had_2, [diagnosticMessageText, expectedCount, valueCount]));
         }
 
-        diagnosticMessageText = diagnosticMessageText.replace(/{(\d+)}/g, function (match, num) {
+        diagnosticMessageText = diagnosticMessageText.replace(/{(\\d+)}/g, function (match, num) {
             return typeof args[num] !== 'undefined' ? args[num] : match;
         });
 
@@ -2655,7 +2658,7 @@ var TypeScript;
             }
 
             return {
-                newLine: "\r\n",
+                newLine: "\\r\\n",
                 currentDirectory: function () {
                     return WScript.CreateObject("WScript.Shell").CurrentDirectory;
                 },
@@ -2759,7 +2762,7 @@ var TypeScript;
                             fc = new Enumerator(folder.subfolders);
 
                             for (; !fc.atEnd(); fc.moveNext()) {
-                                paths = paths.concat(filesInFolder(fc.item(), root + "\\" + fc.item().Name));
+                                paths = paths.concat(filesInFolder(fc.item(), root + "\\\\" + fc.item().Name));
                             }
                         }
 
@@ -2767,7 +2770,7 @@ var TypeScript;
 
                         for (; !fc.atEnd(); fc.moveNext()) {
                             if (!spec || fc.item().Name.match(spec)) {
-                                paths.push(root + "\\" + fc.item().Name);
+                                paths.push(root + "\\\\" + fc.item().Name);
                             }
                         }
 
@@ -2835,7 +2838,7 @@ var TypeScript;
                     function mkdirRecursiveSync(path) {
                         var stats = _fs.statSync(path);
                         if (stats.isFile()) {
-                            throw "\"" + path + "\" exists but isn't a directory.";
+                            throw "\\"" + path + "\\" exists but isn't a directory.";
                         } else if (stats.isDirectory()) {
                             return;
                         } else {
@@ -2848,7 +2851,7 @@ var TypeScript;
                     TypeScript.nodeMakeDirectoryTime += new Date().getTime() - start;
 
                     if (writeByteOrderMark) {
-                        contents = '\uFEFF' + contents;
+                        contents = '\\uFEFF' + contents;
                     }
 
                     var start = new Date().getTime();
@@ -2889,11 +2892,11 @@ var TypeScript;
 
                         var files = _fs.readdirSync(folder);
                         for (var i = 0; i < files.length; i++) {
-                            var stat = _fs.statSync(folder + "\\" + files[i]);
+                            var stat = _fs.statSync(folder + "\\\\" + files[i]);
                             if (options.recursive && stat.isDirectory()) {
-                                paths = paths.concat(filesInFolder(folder + "\\" + files[i]));
+                                paths = paths.concat(filesInFolder(folder + "\\\\" + files[i]));
                             } else if (stat.isFile() && (!spec || files[i].match(spec))) {
-                                paths.push(folder + "\\" + files[i]);
+                                paths.push(folder + "\\\\" + files[i]);
                             }
                         }
 
@@ -2908,7 +2911,7 @@ var TypeScript;
                         process.stdout.write(str);
                     },
                     WriteLine: function (str) {
-                        process.stdout.write(str + '\n');
+                        process.stdout.write(str + '\\n');
                     },
                     Close: function () {
                     }
@@ -6033,7 +6036,7 @@ var FormattingOptions = (function () {
         this.indentSpaces = indentSpaces;
         this.newLineCharacter = newLineCharacter;
     }
-    FormattingOptions.defaultOptions = new FormattingOptions(false, 4, 4, "\r\n");
+    FormattingOptions.defaultOptions = new FormattingOptions(false, 4, 4, "\\r\\n");
     return FormattingOptions;
 })();
 var TypeScript;
@@ -6140,7 +6143,7 @@ var TypeScript;
                 numberOfSpaces -= numberOfTabs * options.spacesPerTab;
             }
 
-            return TypeScript.StringUtilities.repeat('\t', numberOfTabs) + TypeScript.StringUtilities.repeat(' ', numberOfSpaces);
+            return TypeScript.StringUtilities.repeat('\\t', numberOfTabs) + TypeScript.StringUtilities.repeat(' ', numberOfSpaces);
         }
         Indentation.indentationString = indentationString;
 
@@ -8172,8 +8175,8 @@ var TypeScript;
         };
 
         Scanner.prototype.getErrorMessageText = function (text) {
-            if (text === "\\") {
-                return '"\\"';
+            if (text === "\\\\") {
+                return '"\\\\"';
             }
 
             return JSON.stringify(text);
@@ -20804,7 +20807,7 @@ var TypeScript;
         }
 
         function massageEscapes(text) {
-            return text.indexOf("\\") >= 0 ? convertEscapes(text) : text;
+            return text.indexOf("\\\\") >= 0 ? convertEscapes(text) : text;
         }
         Syntax.massageEscapes = massageEscapes;
 
@@ -21428,9 +21431,9 @@ var TypeScript;
         Syntax.singleLineComment = singleLineComment;
 
         Syntax.spaceTrivia = spaces(1);
-        Syntax.lineFeedTrivia = trivia(5 /* NewLineTrivia */, "\n");
-        Syntax.carriageReturnTrivia = trivia(5 /* NewLineTrivia */, "\r");
-        Syntax.carriageReturnLineFeedTrivia = trivia(5 /* NewLineTrivia */, "\r\n");
+        Syntax.lineFeedTrivia = trivia(5 /* NewLineTrivia */, "\\n");
+        Syntax.carriageReturnTrivia = trivia(5 /* NewLineTrivia */, "\\r");
+        Syntax.carriageReturnLineFeedTrivia = trivia(5 /* NewLineTrivia */, "\\r\\n");
 
         function splitMultiLineCommentTriviaIntoMultipleLines(trivia) {
             var result = [];
@@ -28631,7 +28634,7 @@ var TypeScript;
         };
 
         Document.prototype.getAmdDependency = function (comment) {
-            var amdDependencyRegEx = /^\/\/\/\s*<amd-dependency\s+path=('|")(.+?)\1/gim;
+            var amdDependencyRegEx = /^\\/\\/\\/\\s*<amd-dependency\\s+path=('|")(.+?)\\1/gim;
             var match = amdDependencyRegEx.exec(comment);
             return match ? match[2] : null;
         };
@@ -28656,7 +28659,7 @@ var TypeScript;
         };
 
         Document.prototype.getImplicitImportSpanWorker = function (trivia, position) {
-            var implicitImportRegEx = /^(\/\/\/\s*<implicit-import\s*)*\/>/gim;
+            var implicitImportRegEx = /^(\\/\\/\\/\\s*<implicit-import\\s*)*\\/>/gim;
             var match = implicitImportRegEx.exec(trivia.fullText());
 
             if (match) {
@@ -31338,7 +31341,7 @@ var TypeScript;
                 if (equalsValueClause) {
                     this.emitIndent();
                     this.recordSourceMappingStart(arg);
-                    this.writeToOutput("if (typeof " + id.text() + " === \"undefined\") { ");
+                    this.writeToOutput("if (typeof " + id.text() + " === \\"undefined\\") { ");
                     this.writeToOutputWithSourceMapRecord(id.text(), id);
                     this.emitJavascript(equalsValueClause, false);
                     this.writeLineToOutput("; }");
@@ -31428,7 +31431,7 @@ var TypeScript;
 
             var amdDependencies = this.document.amdDependencies();
             for (var i = 0; i < amdDependencies.length; i++) {
-                dependencyList += ", \"" + amdDependencies[i] + "\"";
+                dependencyList += ", \\"" + amdDependencies[i] + "\\"";
             }
 
             return {
@@ -32622,7 +32625,7 @@ var TypeScript;
                 this.recordSourceMappingStart(sourceUnit);
 
                 if (this.emitOptions.compilationSettings().moduleGenTarget() === 2 /* Asynchronous */) {
-                    var dependencyList = "[\"require\", \"exports\"";
+                    var dependencyList = "[\\"require\\", \\"exports\\"";
                     var importList = "require, exports";
 
                     var importAndDependencyList = this.getModuleImportAndDependencyList(sourceUnit);
@@ -33985,7 +33988,7 @@ var TypeScript;
 
     function getTrimmedTextLines(comment) {
         if (comment.kind() === 6 /* MultiLineCommentTrivia */) {
-            return comment.fullText().split("\n").map(function (s) {
+            return comment.fullText().split("\\n").map(function (s) {
                 return s.trim();
             });
         } else {
@@ -34122,11 +34125,11 @@ var TypeScript;
     TypeScript.isQuoted = isQuoted;
 
     function quoteStr(str) {
-        return "\"" + str + "\"";
+        return "\\"" + str + "\\"";
     }
     TypeScript.quoteStr = quoteStr;
 
-    var switchToForwardSlashesRegEx = /\\/g;
+    var switchToForwardSlashesRegEx = /\\\\/g;
     function switchToForwardSlashes(path) {
         return path.replace(switchToForwardSlashesRegEx, "/");
     }
@@ -34228,7 +34231,7 @@ var TypeScript;
     }
     TypeScript.isRelative = isRelative;
     function isRooted(path) {
-        return path.length > 0 && (path.charAt(0) === "\\" || path.charAt(0) === "/" || (path.indexOf(":\\") !== -1) || (path.indexOf(":/") !== -1));
+        return path.length > 0 && (path.charAt(0) === "\\\\" || path.charAt(0) === "/" || (path.indexOf(":\\\\") !== -1) || (path.indexOf(":/") !== -1));
     }
     TypeScript.isRooted = isRooted;
 
@@ -34264,7 +34267,7 @@ var TypeScript;
     }
     TypeScript.convertToDirectoryPath = convertToDirectoryPath;
 
-    var normalizePathRegEx = /^\\\\[^\\]/;
+    var normalizePathRegEx = /^\\\\\\\\[^\\\\]/;
     function normalizePath(path) {
         if (normalizePathRegEx.test(path)) {
             path = "file:" + path;
@@ -34295,14 +34298,14 @@ var TypeScript;
     
 
     function isNoDefaultLibMatch(comment) {
-        var isNoDefaultLibRegex = /^(\/\/\/\s*<reference\s+no-default-lib=)('|")(.+?)\2\s*\/>/gim;
+        var isNoDefaultLibRegex = /^(\\/\\/\\/\\s*<reference\\s+no-default-lib=)('|")(.+?)\\2\\s*\\/>/gim;
         return isNoDefaultLibRegex.exec(comment);
     }
 
-    TypeScript.tripleSlashReferenceRegExp = /^(\/\/\/\s*<reference\s+path=)('|")(.+?)\2\s*(static=('|")(.+?)\2\s*)*\/>/;
+    TypeScript.tripleSlashReferenceRegExp = /^(\\/\\/\\/\\s*<reference\\s+path=)('|")(.+?)\\2\\s*(static=('|")(.+?)\\2\\s*)*\\/>/;
 
     function getFileReferenceFromReferencePath(fileName, lineMap, position, comment, diagnostics) {
-        var simpleReferenceRegEx = /^\/\/\/\s*<reference\s+/gim;
+        var simpleReferenceRegEx = /^\\/\\/\\/\\s*<reference\\s+/gim;
         if (simpleReferenceRegEx.exec(comment)) {
             var isNoDefaultLib = isNoDefaultLibMatch(comment);
 
@@ -37252,7 +37255,7 @@ var TypeScript;
                     docCommentText.push(commentText);
                 }
             }
-            return docCommentText.join("\n");
+            return docCommentText.join("\\n");
         };
 
         PullSymbol.prototype.getDocCommentTextValue = function (comment) {
@@ -37290,7 +37293,7 @@ var TypeScript;
                     if (paramSelfComment != "") {
                         parameterComments.push(paramSelfComment);
                     }
-                    docComments = parameterComments.join("\n");
+                    docComments = parameterComments.join("\\n");
                 } else {
                     var getSymbolComments = true;
                     if (this.kind === 16777216 /* FunctionType */) {
@@ -37397,9 +37400,9 @@ var TypeScript;
                     var paramHelpString = commentContents.substring(j, endOfParam < 0 ? commentContents.length : endOfParam);
 
                     var paramSpacesToRemove = undefined;
-                    var paramLineIndex = commentContents.substring(0, j).lastIndexOf("\n") + 1;
+                    var paramLineIndex = commentContents.substring(0, j).lastIndexOf("\\n") + 1;
                     if (paramLineIndex !== 0) {
-                        if (paramLineIndex < j && commentContents.charAt(paramLineIndex + 1) === "\r") {
+                        if (paramLineIndex < j && commentContents.charAt(paramLineIndex + 1) === "\\r") {
                             paramLineIndex++;
                         }
                     }
@@ -37421,7 +37424,7 @@ var TypeScript;
             if (content.length >= 2 && content.charAt(content.length - 1) === "/" && content.charAt(content.length - 2) === "*") {
                 content = content.substring(0, content.length - 2);
             }
-            var lines = content.split("\n");
+            var lines = content.split("\\n");
             var inParamTag = false;
             for (var l = 0; l < lines.length; l++) {
                 var line = lines[l];
@@ -37461,7 +37464,7 @@ var TypeScript;
                 }
             }
 
-            return docCommentLines.join("\n");
+            return docCommentLines.join("\\n");
         };
 
         PullSymbol.prototype.consumeLeadingSpace = function (line, startIndex, maxSpacesToRemove) {
@@ -37512,7 +37515,7 @@ var TypeScript;
 
                 return {
                     start: nonSpaceIndex,
-                    end: line.charAt(line.length - 1) === "\r" ? line.length - 1 : line.length,
+                    end: line.charAt(line.length - 1) === "\\r" ? line.length - 1 : line.length,
                     jsDocSpacesRemoved: jsDocSpacesRemoved
                 };
             }
@@ -51876,7 +51879,7 @@ var TypeScript;
             var result = "";
 
             for (var i = 0; i < this.indent; i++) {
-                result += "\t";
+                result += "\\t";
             }
 
             return result;
@@ -57038,7 +57041,7 @@ var TypeScript;
                 result += " " + TypeScript.getLocalizedText(TypeScript.DiagnosticCode.Additional_locations, null) + TypeScript.Environment.newLine;
 
                 for (var i = 0, n = additionalLocations.length; i < n; i++) {
-                    result += "\t" + this.getLocationText(additionalLocations[i]) + TypeScript.Environment.newLine;
+                    result += "\\t" + this.getLocationText(additionalLocations[i]) + TypeScript.Environment.newLine;
                 }
             } else {
                 result += TypeScript.Environment.newLine;
@@ -62542,6 +62545,7 @@ var TypeScript;
 return {
     LineAndCharacter: TypeScript.LineAndCharacter,
     LineMap: TypeScript.LineMap,
+    SyntaxKind: TypeScript.SyntaxKind,
     SyntaxNode: TypeScript.SyntaxNode,
     SourceUnitSyntax: TypeScript.SourceUnitSyntax,
     ExternalModuleReferenceSyntax: TypeScript.ExternalModuleReferenceSyntax,

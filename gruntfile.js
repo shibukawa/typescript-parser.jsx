@@ -43,7 +43,9 @@ module.exports = function(grunt) {
 
     exec: {
       typescriptparser: {
-        cmd: 'cat src/typescript-parser-tmpl-begin.jsx node_modules/typescript/bin/typescript.js src/typescript-parser-tmpl-end.jsx | nkf -Lu > src/typescript-parser.jsx'
+        cmd: ["sed 's/\\\\/\\\\\\\\/g' node_modules/typescript/bin/typescript.js > tmp_ts.js",
+              "cat src/typescript-parser-tmpl-begin.jsx tmp_ts.js src/typescript-parser-tmpl-end.jsx | nkf -Lu > src/typescript-parser.jsx",
+              "rm tmp_ts.js"].join(';')
       }
     }
   });

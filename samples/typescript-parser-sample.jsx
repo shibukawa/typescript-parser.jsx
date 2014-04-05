@@ -54,6 +54,8 @@ class _Main {
     static function main(argv : string[]) : void
     {
         var syntaxTree = TypeScript.Parser.parse('syntaxNode.ts', _Main.sample_code1);
-        console.log(syntaxTree.toJSON());
+        //console.log(JSON.stringify(syntaxTree.toJSON(), null, 4));
+        //console.log(JSON.stringify(syntaxTree.sourceUnit().childAt(0), null, 4));
+        console.log(TypeScript.SyntaxKind[syntaxTree.sourceUnit().childAt(0).kind()]);
     }
 }

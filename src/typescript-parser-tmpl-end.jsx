@@ -1,6 +1,7 @@
 return {
     LineAndCharacter: TypeScript.LineAndCharacter,
     LineMap: TypeScript.LineMap,
+    SyntaxKind: TypeScript.SyntaxKind,
     SyntaxNode: TypeScript.SyntaxNode,
     SourceUnitSyntax: TypeScript.SourceUnitSyntax,
     ExternalModuleReferenceSyntax: TypeScript.ExternalModuleReferenceSyntax,
